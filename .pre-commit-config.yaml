@@ -1,0 +1,16 @@
+# Run `pre-commit install` once, then every git commit will run these hooks.
+# To upgrade versions later: `pre-commit autoupdate --bleeding-edge`
+repos:
+  # Black – final code formatter
+  - repo: https://github.com/psf/black
+    rev: 25.1.0
+    hooks:
+      - id: black
+        language_version: python3.12
+  # Generic utility hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: end-of-file-fixer # ensure trailing newline
+      - id: trailing-whitespace # strip stray spaces
+      - id: check-added-large-files # block >500 kB blobs
