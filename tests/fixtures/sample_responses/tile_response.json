@@ -1,0 +1,54 @@
+{
+  "LT-103": {
+    "tag": "LT-103",
+    "type": "instrument",
+    "size": "small",
+    "bbox": [
+      30,
+      487,
+      80,
+      537
+    ],
+    "conf": 0.9,
+    "status": "INGESTED"
+  },
+  "MOV-104": {
+    "tag": "MOV-104",
+    "type": "valve",
+    "size": "medium",
+    "bbox": [
+      360,
+      490,
+      400,
+      530
+    ],
+    "conf": 0.9,
+    "status": "INGESTED"
+  },
+  "FT-102": {
+    "tag": "FT-102",
+    "type": "instrument",
+    "size": "small",
+    "bbox": [
+      480,
+      500,
+      530,
+      550
+    ],
+    "conf": 0.9,
+    "status": "INGESTED"
+  },
+  "PT-101": {
+    "tag": "PT-101",
+    "type": "instrument",
+    "size": "small",
+    "bbox": [
+      600,
+      450,
+      650,
+      500
+    ],
+    "conf": 0.9,
+    "status": "INGESTED"
+  }
+}
